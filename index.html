@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luck Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="#">
+      <div class="container">
+        <h1>Luck Test Game</h1>
+        <h1>
+          <label for="player1Score" id="player1Name">PLAYER ONE</label>
+          <label for="player2Score" id="player2Name">PLAYER TWO</label>
+        </h1>
+
+        <h1>
+          <span class="player1Score" id="player1Score">0</span>
+          <span class="player2Score" id="player2Score">0</span>
+        </h1>
+        <p>Get <span class="winScore" id="winScore">0</span> to WIN!!!</p>
+
+        <div class="container">
+          <div class="form__group">
+            <div class="center">
+              <label for="inp" class="form__label">PUT YOUR WINING SCORE</label>
+              <input type="text" class="form__field" name="inp" id="inp" />
+
+              <button class="btn" id="pl1Btn">
+                <span class="text">Player 1</span>
+              </button>
+              <button class="btn" id="pl2Btn">
+                <span class="text">Player 2</span>
+              </button>
+              <button class="btn" id="resetBtn">
+                <span class="text">RESET</span>
+              </button>
+              <button class="btn" id="submitBtn" type="submit">
+                <span class="text">submit</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+
+    <script src="index.js"></script>
+  </body>
+</html>
